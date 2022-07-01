@@ -1,0 +1,109 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: rgb(212 255 249);
+}
+
+#heading {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 13px;
+  margin-bottom: 0;
+  color: grey;
+}
+
+#heading:hover {
+  background-color: rgb(173 234 226);
+  color: #3a405a;
+}
+
+#contact-list {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0
+}
+
+p {
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: royalblue;
+  border: 1px solid white;
+  padding: 2px 4px;
+  margin-top: 3px;
+  width: 30rem;
+}
+
+#contact {
+  width: 94%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#delete-contact {
+  margin: auto;
+}
+
+li:hover {
+  background-color: slategray;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+form input {
+  width: 13rem;
+  margin: 0 4px;
+  height: 2rem;
+  border: 0;
+  border-bottom: 1px solid grey;
+}
+
+form input:focus {
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+
+form input:hover {
+  border-bottom: 1px solid darkmagenta;
+}
+
+form button {
+  width: 4rem;
+  height: 2rem;
+  cursor: pointer;
+  background-color: #9db1ab;
+  border: 1px solid #8a9995;
+  color: white;
+}
+
+form button:hover {
+  background-color: #CEABB1;
+  color: #444545;
+  border: 1px solid #ab8d92;
+}
+
+#delete-contact a i {
+  padding-left: 0.4px;
+  padding-top: 0.4px;
+}
+
+#delete-contact a i:hover {
+  color: rgb(255, 0, 0);
+  background-color: black;
+  /* border: 1px solid red; */
+}
